@@ -16,7 +16,7 @@
  *  under the License.
  *
  */
-package org.wso2.carbon.client.configcontext.ext;
+package org.wso2.carbon.client.configcontext.valve;
 
 import java.io.IOException;
 
@@ -27,8 +27,8 @@ import org.apache.catalina.connector.Response;
 import org.apache.catalina.valves.ValveBase;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.wso2.carbon.client.configcontext.ext.internal.ConfigContextProviderHolder;
 import org.wso2.carbon.client.configcontext.provider.Axis2ClientConfigContextProvider;
+import org.wso2.carbon.client.configcontext.valve.internal.ConfigContextProviderHolder;
 import org.wso2.carbon.context.CarbonContext;
 import org.wso2.carbon.context.PrivilegedCarbonContext;
 

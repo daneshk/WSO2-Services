@@ -17,7 +17,7 @@
  *
  */
 
-package org.wso2.carbon.client.configcontext.ext.internal;
+package org.wso2.carbon.client.configcontext.valve.internal;
 
 import org.wso2.carbon.client.configcontext.provider.Axis2ClientConfigContextProvider;
 
