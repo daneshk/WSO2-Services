@@ -76,5 +76,5 @@ public class Axis2ClientConfigContextProviderImpl implements Axis2ClientConfigCo
 		}
 		return configurationContext;
 	}
-	
+
 }

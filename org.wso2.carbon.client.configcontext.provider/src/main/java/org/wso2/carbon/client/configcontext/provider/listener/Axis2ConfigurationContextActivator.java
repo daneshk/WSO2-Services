@@ -34,7 +34,6 @@ public class Axis2ConfigurationContextActivator implements BundleActivator {
 	private static Log log = LogFactory
 			.getLog(Axis2ConfigurationContextActivator.class);
 
-	@Override
 	public void start(BundleContext context) {
 		try {
 			context.registerService(
@@ -50,7 +49,6 @@ public class Axis2ConfigurationContextActivator implements BundleActivator {
 
 	}
 
-	@Override
 	public void stop(BundleContext context) {
 	}
 
